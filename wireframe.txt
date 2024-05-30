@@ -1,0 +1,17 @@
+
+VISTA DE ORDENADOR;
+https://wireframe.cc/8HxRk1 PANTALLA PRINCIPAL
+https://wireframe.cc/fGv2kd CAMISETAS NACIONALES
+https://wireframe.cc/8CuCbN CAMISETAS INTERNACIONALES
+https://wireframe.cc/33qCUu SELECCIONES
+https://wireframe.cc/Jib7oA ¿QUIENES SOMOS?
+https://wireframe.cc/ygDsAu CONTACTO
+
+
+VISTA DE SMARTPHONE;
+https://wireframe.cc/0bKFxU PANTALLA PRINCIPAL
+https://wireframe.cc/wQgVQ5 CAMISETAS NACIONALES
+https://wireframe.cc/FoRJ4H CAMISETAS INTERNACIONALES
+https://wireframe.cc/c69Ew4 SELECCIONES
+https://wireframe.cc/D8sGFJ ¿QUIENES SOMOS?
+https://wireframe.cc/44WCCm CONTACTO

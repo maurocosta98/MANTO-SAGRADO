@@ -1,0 +1,24 @@
+{
+  "name": "manto-sagrado-camisetas-de-futbol---costa-mauro",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000M\u0000a\u0000n\u0000t\u0000o\u0000-\u0000S\u0000a\u0000g\u0000r\u0000a\u0000d\u0000o\u0000-\u0000C\u0000a\u0000m\u0000i\u0000s\u0000e\u0000t\u0000a\u0000s\u0000-\u0000d\u0000e\u0000-\u0000F\u0000u\u0000t\u0000b\u0000o\u0000l\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass"
+    "sass:watch": "sass --watch scss/main.scss  css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maurocosta98/Manto-Sagrado-Camisetas-de-Futbol.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maurocosta98/Manto-Sagrado-Camisetas-de-Futbol/issues"
+  },
+  "homepage": "https://github.com/maurocosta98/Manto-Sagrado-Camisetas-de-Futbol#readme",
+  "dependencies": {
+    "sass": "^1.54.9"
+  }
+}

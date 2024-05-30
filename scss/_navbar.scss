@@ -1,0 +1,42 @@
+nav{
+    background-color: map-get($map: $paleta, $key: colorPrimario );
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+	padding: 5px 0px;
+    z-index: 1;
+    animation-name: mianimacion;
+    animation-duration: 2s;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    }
+    nav ul{
+        list-style: none;
+        display: inline-block;
+		margin-left: 30px;
+    }
+
+        nav ul li{
+            display: inline-block;
+            margin-right: 10px;
+        }
+            nav ul li a{
+                color: map-get($map: $paleta, $key: colorTerciario);
+                text-decoration: none;
+                font-family: 'Figtree', sans-serif;
+                font-size: 1.2rem;
+                background: linear-gradient( to top, rgb(255, 255, 255), rgb(197, 197, 16)  );
+                border: none;
+                border-radius: 4px;
+                text-align: right;
+            }
+
+           nav ul li a:hover{
+                color: rgb(0, 0, 0);
+                text-decoration: underline;
+            }
+    

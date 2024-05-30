@@ -1,0 +1,318 @@
+@import url(https://fonts.googleapis.com/css2?family=Figtree:wght@300;400&display=swap);
+ $mainColor: gold 
+ $secundaryColor: rgb(0, 0, 255)
+ $keyColor1: white 
+ $keyColor2:_rgb(0, 0, 255)
+ $keyColor3: black 
+
+ 
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Figtree", sans-serif;
+}
+
+html{
+    font-size: 100%;
+}
+
+body{
+    background-image: url(../img/camisetas-de-fútbol-más-bonitas-2019-2020-.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}    
+
+h1{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+}
+
+
+h2{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+p{
+    color: gold;
+    font-size: 1rem;.
+    text-align: center;
+}
+
+.bg-gold{
+    background-color: rgba(255, 234, 1, 0.896);
+}
+
+
+nav{
+    background-color: rgba(255, 234, 1, 0.896);
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+	padding: 5px 0px;
+    z-index: 1;
+    animation-name: mianimacion;
+    animation-duration: 2s;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    }
+    nav ul{
+        list-style: none;
+        display: inline-block;
+		margin-left: 30px;
+    }
+
+        nav ul li{
+            display: inline-block;
+            margin-right: 10px;
+        }
+            nav ul li a{
+                color: #1215e6;
+                text-decoration: none;
+                font-family: 'Figtree', sans-serif;
+                font-size: 1.2rem;
+                background: linear-gradient( to top, rgb(255, 255, 255), rgb(197, 197, 16)  );
+                border: none;
+                border-radius: 4px;
+                text-align: right;
+            }
+
+           nav ul li a:hover{
+                color: rgb(0, 0, 0);
+                text-decoration: underline;
+            }
+    
+
+.encabezado__img--fluid{
+    width: 100%;
+}
+    
+
+section{
+    background-color: blue;
+    width: 90%;
+    height: auto;
+    margin: 50px auto;
+    border: outset gold 2px;
+    overflow-y: auto;
+    text-align: center;
+    color: white;
+    }
+    
+    
+footer{
+     text-align: center;
+    color: yellow;
+
+}
+
+.card {
+    display: flex;
+    
+
+}
+
+
+#camisetasnac{
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+#camisetasnac .galeria{
+	margin: 20px;
+	display: flex;
+	justify-content: space-between;
+    flex-wrap: wrap;
+    animation-name: ; 
+}
+    #camisetasnac. galeria figure{
+        text-align: center;
+		width:30% ;
+    }
+        
+    #camisetasnac .galeria figure img{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        width: 100%;
+    }
+
+    #camisetasnac .galeria figure figcaption{
+        font-size: 2.5rem;
+        color: #fff200 ;
+        padding: 10px 0;
+        background-color: rgb(0, 85, 255);
+    }
+
+    #camisetasnac .galeria p.price{
+        color: #676565;
+        padding-bottom: 10px;
+        background-color: white;
+    }
+
+
+
+    #camisetasinter{
+        width: auto;
+        height: auto;
+        position: relative;
+
+    }
+    
+    #camisetasinter .galeria{
+        margin: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+        flex-direction: row;
+        align-items: stretch;
+        flex-wrap: wrap;
+       }
+
+        
+        #camisetasinter. galeria figure{
+            text-align: center;
+            width:30% ;
+        }
+            
+        #camisetasinter .galeria figure img{
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            width: 100%;
+        }
+    
+        #camisetasinter .galeria figure figcaption{
+            font-size: 2.5rem;
+            color: #fff200 ;
+            padding: 10px 0;
+            background-color: rgb(0, 85, 255);
+        }
+    
+        #camisetasinter .galeria p.price{
+            color: #676565;
+            padding-bottom: 10px;
+            background-color: white;
+        }
+
+        #selecciones{
+            width: auto;
+            height: auto;
+            position: relative;
+        }
+        
+        #selecciones .galeria{
+            margin: 20px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap; 
+        }
+            #selecciones. galeria figure{
+                text-align: center;
+                width:30% ;
+            }
+                
+            #selecciones .galeria figure img{
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                width: 100%;
+            }
+        
+            #selecciones .galeria figure figcaption{
+                font-size: 2.5rem;
+                color: #fff200 ;
+                padding: 10px 0;
+                background-color: rgb(0, 85, 255);
+            }
+        
+            #selecciones .galeria p.price{
+                color: #676565;
+                padding-bottom: 10px;
+                background-color: white;
+            }
+
+            #contacto {
+                min-width: 226px;
+                max-width: 220px;
+                min-height: 153px;
+             }
+
+             
+             .contenedor {
+             display: grid;
+             grid-template-columns: 1fr;
+             grid-template-rows: auto;
+             grid-template-areas: 
+             "nav nav nav" 
+             "header" 
+             "main"
+             "manto"
+             "todaslascamisetas"
+             "footer"
+             
+              }
+
+              #nav {
+                grid-area: nav;
+              }
+
+              #header {
+                grid-area: header;
+              }
+
+              #main {
+                grid-area: main;
+              }
+
+              #manto {
+                grid-area: manto;
+              }
+
+              #todaslascamisetas {
+                grid-area: todaslascamisetas;
+              }
+
+              #footer {
+                grid-area: footer;
+              }
+
+
+              .inter {
+                display: grid;
+                grid-template-columns: 20fr ;
+                grid-template-rows: auto;
+                grid-template-areas: 
+                "nav nav nav"
+                "header"
+                "h1"
+                "inter" 
+                "footer"
+                 }
+
+
+@media (min-width :1024px) 
+
+#inter{
+    display: grid;
+		grid-template-columns: 20vw 70vw 10vw;
+		grid-template-rows: auto;
+		grid-template-areas: 
+		"nav nav nav "
+        "header header header "
+        "galeria"
+
+}
+
+@keyframes mianimacion {
+    0% {background: #1215e6;}
+    100% {background: #fff200;}
+}
+                 
+

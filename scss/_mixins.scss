@@ -1,0 +1,12 @@
+@mixin flex-row-center {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+
+@mixin footer {
+    text-align: center;
+    $keyColor1
+    background-color: $secundaryColor
+}
